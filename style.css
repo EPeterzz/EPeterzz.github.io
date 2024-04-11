@@ -1,0 +1,73 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    width: 80%;
+    /* brower's width */
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+
+
+.site-title h1 {
+    font-size: 90px;
+}
+
+.site-title h1 span {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.hero .banner {
+    background: url('images/banner.jpg');
+    height: 200px;
+}
+
+.hero .columns {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.news-letter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form,
+.signup-text {
+    width: 30%;
+    padding: 10px;
+}
+
+.signup-form input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.sitemap {
+    display: flex;
+}
+
+.sitemap {
+    text-decoration: none;
+}
